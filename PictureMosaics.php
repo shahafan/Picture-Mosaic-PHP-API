@@ -233,7 +233,7 @@ class PictureMosaics
 
   public function process($post_data,$url)
   {
-    echo json_encode($post_data);
+    //echo json_encode($post_data);
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL,$url);
     curl_setopt($ch, CURLOPT_BINARYTRANSFER, TRUE);
